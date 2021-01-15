@@ -28,7 +28,7 @@ function createTimeOutEvent(record, dateStamp){
   return record;
 }
 
-function hoursWorkedOnDate(record){
-  record.reduce
+function hoursWorkedOnDate(record, workDate){
+  let timeIn = record.find(timeInEvents => time)
 }
 
