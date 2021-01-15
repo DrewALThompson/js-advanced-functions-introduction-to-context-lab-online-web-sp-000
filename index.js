@@ -1,1 +1,3 @@
-function createEmployeeRecord(){}
+function createEmployeeRecord(arr){
+  arr.map
+}
