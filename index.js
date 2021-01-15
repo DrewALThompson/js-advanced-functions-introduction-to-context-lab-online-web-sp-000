@@ -1,6 +1,6 @@
 function createEmployeeRecord(arr){
   let record = {
-    firstName: ,
+    firstName: nil,
     
   }
 }
