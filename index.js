@@ -35,6 +35,6 @@ function hoursWorkedOnDate(record, workDate){
 }
 
 function wagesEarnedOnDate(record, workDate, rate){
-  return rate*hoursWorkedOnDate;
+  return rate*hoursWorkedOnDate(record, workDate);
 }
 
