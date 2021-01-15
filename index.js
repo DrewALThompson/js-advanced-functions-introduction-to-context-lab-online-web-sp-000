@@ -13,3 +13,8 @@ function createEmployeeRecord(arr){
 function createEmployeeRecords(arr){
   return arr.map(createEmployeeRecord);
 }
+
+function createTimeInEvent(){}
+
+function createTimeOutEvent(){}
+
