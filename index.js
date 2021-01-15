@@ -14,11 +14,13 @@ function createEmployeeRecords(arr){
   return arr.map(createEmployeeRecord);
 }
 
-function dateStamp(time, dateStamp){
-  return {type: time, date: dateStamp.substring(0, 10), hour:}
+function dateStamper(time, dateStamp){
+  return {type: time, date: dateStamp.substring(0, 10), hour: dateStamp.slice(-4)}
 }
 
-function createTimeInEvent(){}
+function createTimeInEvent(obj, dateStamp){
+  obj.timeInEvents.push(dateStamper())
+}
 
 function createTimeOutEvent(){}
 
