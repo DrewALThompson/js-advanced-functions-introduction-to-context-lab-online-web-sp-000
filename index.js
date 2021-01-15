@@ -44,3 +44,4 @@ function allWagesFor(record){
   return allDates.reduce((total, money) => money + total);
 }
 
+function calculatePayroll(){}
