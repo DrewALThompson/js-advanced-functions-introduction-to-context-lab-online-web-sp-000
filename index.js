@@ -49,4 +49,6 @@ function calculatePayroll(records){
   return allWages.reduce((total, wage) => wage + total);
 }
 
-
+function findEmployeeByFirstName(records, name){
+  return records.find(employee => employee.firstName === name);
+}
