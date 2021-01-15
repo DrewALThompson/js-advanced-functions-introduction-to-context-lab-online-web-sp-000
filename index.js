@@ -40,7 +40,7 @@ function wagesEarnedOnDate(record, workDate){
 }
 
 function allWagesFor(record){
-  let allDates = record.timeInEvents.map(date => wagesEarnedOnDate(record, date));
-  return allDates.reduce((total, money) => money + total, 0);
+  let allDates = record.timeInEvents.map(day => wagesEarnedOnDate(record, day.date));
+  return allDates.reduce((total, money) => money + total);
 }
 
