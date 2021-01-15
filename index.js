@@ -39,3 +39,7 @@ function wagesEarnedOnDate(record, workDate){
   return money * hoursWorkedOnDate(record, workDate);
 }
 
+function allWagesFor(record){
+  
+}
+
