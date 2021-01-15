@@ -15,7 +15,7 @@ function createEmployeeRecords(arr){
 }
 
 function dateStamp(time, dateStamp){
-  return {type: time, date: dateStamp.}
+  return {type: time, date: dateStamp.substring(0, 10), hour:}
 }
 
 function createTimeInEvent(){}
