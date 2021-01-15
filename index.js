@@ -28,3 +28,7 @@ function createTimeOutEvent(record, dateStamp){
   return record;
 }
 
+function hoursWorkedOnDate(record){
+  record.reduce
+}
+
