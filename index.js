@@ -19,7 +19,7 @@ function dateStamper(time, dateStamp){
 }
 
 function createTimeInEvent(record, dateStamp){
-  record.timeInEvents.push(dateStamper('Time In', dateStamp));
+  return record.timeInEvents.push(dateStamper('Time In', dateStamp));
 }
 
 function createTimeOutEvent(){}
