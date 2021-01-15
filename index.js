@@ -19,7 +19,7 @@ function dateStamper(time, dateStamp){
 }
 
 function createTimeInEvent(obj, dateStamp){
-  obj.timeInEvents.push(dateStamper())
+  obj.timeInEvents.push(dateStamper('Time In', dateStamp));
 }
 
 function createTimeOutEvent(){}
