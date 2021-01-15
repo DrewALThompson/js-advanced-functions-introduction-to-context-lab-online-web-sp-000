@@ -29,6 +29,6 @@ function createTimeOutEvent(record, dateStamp){
 }
 
 function hoursWorkedOnDate(record, workDate){
-  let timeIn = record.timeInEvents.find(time => time === workDate)
+  let timeIn = record.timeInEvents.find(day => time === workDate)
 }
 
