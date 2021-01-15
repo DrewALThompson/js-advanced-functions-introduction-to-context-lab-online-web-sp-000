@@ -1,3 +1,5 @@
 function createEmployeeRecord(arr){
-  arr.map
+  let record = {
+    first
+  }
 }
