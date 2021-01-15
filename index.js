@@ -9,3 +9,7 @@ function createEmployeeRecord(arr){
   }
   return record;
 }
+
+function createEmployeeRecords(arr){
+  return arr.map(createEmployeeRecord);
+}
