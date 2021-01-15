@@ -36,5 +36,6 @@ function hoursWorkedOnDate(record, workDate){
 
 function wagesEarnedOnDate(record, workDate){
   const money = record.payPerHour;
+  return money * hoursWorkedOnDate(record, workDate);
 }
 
