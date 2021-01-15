@@ -14,6 +14,10 @@ function createEmployeeRecords(arr){
   return arr.map(createEmployeeRecord);
 }
 
+function dateStamp(time, dateStamp){
+  return {type: time, date: dateStamp.}
+}
+
 function createTimeInEvent(){}
 
 function createTimeOutEvent(){}
